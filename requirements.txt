@@ -1,0 +1,13 @@
+# API Sunucusu için Gerekenler/needed for API
+fastapi
+uvicorn
+scikit-learn
+joblib
+jpype1
+pydantic
+
+# Watchdog (SpamAnalizör) için Gerekenler/Needed for SpamAnalizör
+watchdog
+requests
+#eğer readme deki gibi komutla çalıştırmada sıkıntı yaşarsanız MyAPI için de SpamAnalizör içinde ayrı sanal ortam kurup oralara elle indirmeniz önerilir 
+#it is recomended that you should create a virtual ground (.venv) for the both of folder and install them by hand if the instructions in the readme doesnt work 
